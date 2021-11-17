@@ -16,17 +16,17 @@ export const LiveTemplate = styled.div`
 `;
 
 export function TemplateDisplay({ jsxString, cssString }) {
-  if (!jsxString) {
-    return (
-      <LiveTemplate jsxString={jsxString}>
-        <Prompt>
-          Press the <span className="fa fa-bell"></span> bell icon in the
-          editor's toolbar to copy the template HTML/JSX here to have a live
-          version of it!
-        </Prompt>
-      </LiveTemplate>
-    );
-  }
+  // if (!jsxString) {
+  //   return (
+  //     <LiveTemplate jsxString={jsxString}>
+  //       <Prompt>
+  //         Press the <span className="fa fa-bell"></span> bell icon in the
+  //         editor's toolbar to copy the template HTML/JSX here to have a live
+  //         version of it!
+  //       </Prompt>
+  //     </LiveTemplate>
+  //   );
+  // }
   return (
     <LiveTemplate jsxString={jsxString}>
       <Style>{cssString}</Style>

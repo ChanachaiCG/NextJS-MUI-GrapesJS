@@ -12,12 +12,18 @@
     "grapesjs": "0.17.29",
     "grapesjs-preset-webpage": "0.1.11",
     "next": "latest",
+    "ory-editor": "0.6.0",
+    "ory-editor-core": "0.6.0",
+    "ory-editor-plugins-parallax-background": "0.6.0",
+    "ory-editor-plugins-slate": "0.6.0",
+    "ory-editor-ui": "0.6.0",
     "prop-types": "latest",
     "react": "latest",
     "react-compound-timer": "1.2.0",
     "react-dom": "latest",
     "react-jsx-parser": "1.28.4",
     "react-style-tag": "2.0.4",
+    "react-tap-event-plugin": "3.0.3",
     "styled-components": "5.3.3"
   },
   "scripts": {
